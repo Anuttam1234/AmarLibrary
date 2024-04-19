@@ -1,0 +1,55 @@
+p,a{
+    color: green;
+}
+
+li{
+    list-style-type: square;
+}
+
+.special{
+    color: orange;
+    font-weight: bold;
+}
+
+li em{
+    color: rebeccapurple;
+}
+
+/* to select p tag just after h1 */
+h1+p{
+    font-size: 200%;
+}
+
+
+a:hover{
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+
+#heading{
+    color: red;
+    background-color: black;
+}
+
+p#one{
+    color: rebeccapurple;
+}
+
+li[class]{
+    font-size: 300%;
+}
+
+li[class="a"]{
+    color: royalblue;
+}
+
+/* all class with a  */
+li[class~="a"]{
+    color:red;
+}
